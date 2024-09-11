@@ -1,0 +1,67 @@
+my-nextjs-frontend/
+├── .next/
+├── node_modules/
+├── public/
+│   ├── favicon.ico
+│   ├── images/
+│   └── fonts/
+├── src/
+│   ├── app/
+│   │   ├── (auth)/
+│   │   │   ├── login/
+│   │   │   │   └── page.tsx
+│   │   │   ├── register/
+│   │   │   │   └── page.tsx
+│   │   │   └── layout.tsx
+│   │   ├── (dashboard)/
+│   │   │   ├── dashboard/
+│   │   │   │   └── page.tsx
+│   │   │   ├── profile/
+│   │   │   │   └── page.tsx
+│   │   │   └── layout.tsx
+│   │   ├── api/
+│   │   │   └── trpc/[trpc]/route.ts
+│   │   ├── layout.tsx
+│   │   ├── page.tsx
+│   │   └── globals.css
+│   ├── components/
+│   │   ├── ui/
+│   │   │   ├── button.tsx
+│   │   │   ├── input.tsx
+│   │   │   └── modal.tsx
+│   │   └── common/
+│   │       ├── Header.tsx
+│   │       ├── Footer.tsx
+│   │       └── Sidebar.tsx
+│   ├── lib/
+│   │   └── api.ts
+│   ├── hooks/
+│   │   ├── useAuth.ts
+│   │   └── useForm.ts
+│   ├── context/
+│   │   └── AuthContext.tsx
+│   ├── store/
+│   │   └── userStore.ts
+│   ├── types/
+│   │   ├── user.ts
+│   │   └── api.ts
+│   ├── utils/
+│   │   ├── formatDate.ts
+│   │   └── validation.ts
+│   ├── styles/
+│   │   └── tailwind.css
+│   └── config/
+│       └── site.ts
+├── tests/
+│   ├── unit/
+│   ├── integration/
+│   └── e2e/
+├── .eslintrc.json
+├── .prettierrc
+├── .gitignore
+├── next.config.mjs
+├── package.json
+├── postcss.config.js
+├── README.md
+├── tailwind.config.ts
+└── tsconfig.json
